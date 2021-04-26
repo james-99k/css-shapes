@@ -1,0 +1,30 @@
+.shapes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.trapezoid {
+  height: 100px;
+  width: 100px;
+  border-right: transparent 25px solid;
+  border-left: transparent 25px solid;
+  border-bottom: 50px solid green;
+}
+
+.heart {
+  height: 100px;
+  width: 0px;
+  border-right: transparent 50px solid;
+  border-left: transparent 50px solid;
+  border-top: 50px solid red;
+}
+
+.heart::before {
+  height: 100px;
+  width: 0px;
+  border-right: transparent 50px solid;
+  border-left: transparent 50px solid;
+  border-top: 50px solid red;
+}
+/*# sourceMappingURL=index.css.map */
