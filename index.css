@@ -48,10 +48,6 @@
 .star {
   margin: 50px 0;
   position: relative;
-  display: block;
-  color: yellow;
-  width: 0px;
-  height: 0px;
   border-right: 80px solid transparent;
   border-bottom: 50px solid yellow;
   border-left: 80px solid transparent;
@@ -64,11 +60,8 @@
   border-bottom: 80px solid yellow;
   border-left: 30px solid transparent;
   position: absolute;
-  height: 0;
-  width: 0;
   top: -45px;
   left: -70px;
-  display: block;
   content: '';
   -webkit-transform: rotate(-35deg);
           transform: rotate(-35deg);
@@ -77,11 +70,8 @@
 .star:after {
   position: absolute;
   display: block;
-  color: yellow;
   top: 15px;
   left: -105px;
-  width: 0px;
-  height: 0px;
   border-right: 80px solid transparent;
   border-bottom: 50px solid yellow;
   border-left: 80px solid transparent;
@@ -103,5 +93,6 @@
   width: 50px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+  margin: 1rem 0 0 2rem;
 }
 /*# sourceMappingURL=index.css.map */
